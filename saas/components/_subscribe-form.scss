@@ -1,0 +1,66 @@
+.subscribe-container {
+  width: 570px;
+  margin-left: auto;
+}
+
+.subscribe-from {
+  display: flex;
+}
+
+.subscribe-input {
+  width: 358px;
+  padding: 15px 16px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--third-text-color);
+  outline: none;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:focus,
+  &:hover {
+    border-color: var(--accent-color);
+
+    &::placeholder {
+      color: var(--third-text-color);
+    }
+  }
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 28px;
+  margin-left: 12px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+  border-radius: 4px;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-icon {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
