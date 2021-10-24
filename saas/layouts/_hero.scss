@@ -14,14 +14,13 @@
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
 
   font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  text-align: center;
+  @include font(44, 60);
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--third-text-color);
   max-width: 696px;
@@ -29,15 +28,4 @@
 
 .hero-btn {
   padding: 10px 32px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: var(--third-text-color);
-  border-radius: 4px;
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

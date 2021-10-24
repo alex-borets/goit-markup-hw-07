@@ -35,15 +35,13 @@
   margin-bottom: 4px;
 
   font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
+  @include font(18px, 36px);
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
 
 .projects-type {
-  font-size: 16px;
-  line-height: calc(30 / 16);
+  @include font(16px, 30px);
   color: var(--secondary-text-color);
 }
 
@@ -58,8 +56,7 @@
   height: 100%;
 
   padding: 63px 24px;
-  font-size: 18px;
-  line-height: calc(28 / 18);
+  @include font(18px, 28px);
   color: var(--third-text-color);
   background-color: rgba(33, 150, 243, 0.9);
 

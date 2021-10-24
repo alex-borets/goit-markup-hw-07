@@ -1,14 +1,25 @@
-// ================BASE================
-@import './base/main-base';
-
-// ================COMPONENTS================
-@import './components/main-components';
-
-// ================LAYOUTS================
-@import './layouts/main-layouts';
-
-// ================PAGES================
-@import './pages/main-pages';
-
-// ================UTILS================
-@import './utils/main-utils';
+@import './utils/vars';
+@import './base/reset';
+@import './utils/mixins';
+@import './base/common';
+@import './components/container';
+@import './components/logo';
+@import './components/btn';
+@import './utils/hidden';
+@import './utils/placeholders';
+@import './layouts/header';
+@import './layouts/hero';
+@import './components/section';
+@import './components/section-title';
+@import './layouts/features';
+@import './layouts/work';
+@import './layouts/team';
+@import './components/social';
+@import './layouts/customers';
+@import './layouts/footer';
+@import './components/join-us';
+@import './components/subscribe-form';
+@import './components/backdrop';
+@import './components/modal';
+@import './pages/portfolio-btns';
+@import './pages/portfolio-projects';
