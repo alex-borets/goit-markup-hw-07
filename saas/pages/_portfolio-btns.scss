@@ -1,13 +1,10 @@
 .btn-list {
   display: flex;
   justify-content: center;
-}
-
-.btn-list {
   margin-bottom: 50px;
 }
 
-.btn-item {
+.btn-list__item {
   &:not(:last-child) {
     margin-right: 8px;
   }

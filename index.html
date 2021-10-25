@@ -607,59 +607,59 @@
 
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
 
-        <form action="#" class="modal-form">
-          <div class="modal-field">
-            <label class="modal-form__label" for="user-name">Имя</label>
-            <span class="modal-form__wrapper">
-              <input class="modal-form__input" type="text" name="user-name" id="user-name" />
-              <svg class="modal-form__icon modal-form__input-icon">
+        <form action="#" class="modal__form">
+          <div class="modal__field">
+            <label class="modal__input-label" for="user-name">Имя</label>
+            <span class="modal__input-wrapper">
+              <input class="modal__input" type="text" name="user-name" id="user-name" />
+              <svg class="modal__icon modal__input-icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
           </div>
 
-          <div class="modal-field">
-            <label class="modal-form__label" for="user-tel">Телефон</label>
-            <span class="modal-form__wrapper">
-              <input class="modal-form__input" type="tel" name="user-tel" id="user-tel" />
-              <svg class="modal-form__icon modal-form__input-icon">
+          <div class="modal__field">
+            <label class="modal__input-label" for="user-tel">Телефон</label>
+            <span class="modal__input-wrapper">
+              <input class="modal__input" type="tel" name="user-tel" id="user-tel" />
+              <svg class="modal__icon modal__input-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </span>
           </div>
 
-          <div class="modal-field">
-            <label class="modal-form__label" for="user-email">Почта</label>
-            <span class="modal-form__wrapper">
-              <input class="modal-form__input" type="email" name="user-email" id="user-email" />
-              <svg class="modal-form__icon modal-form__input-icon">
+          <div class="modal__field">
+            <label class="modal__input-label" for="user-email">Почта</label>
+            <span class="modal__input-wrapper">
+              <input class="modal__input" type="email" name="user-email" id="user-email" />
+              <svg class="modal__icon modal__input-icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </span>
           </div>
 
-          <div class="modal-field">
-            <label class="modal-form__label" for="user-text">Комментарий</label>
+          <div class="modal__field">
+            <label class="modal__input-label" for="user-text">Комментарий</label>
             <textarea
-              class="modal-form__comment-input"
+              class="modal__comment-input"
               name="user-text"
               id="user-text"
               placeholder="Введите текст"
             ></textarea>
           </div>
 
-          <input type="checkbox" id="modal-checkbox" class="modal-form__checkbox visually-hidden" />
-          <label for="modal-checkbox" class="modal-form__check-text">
-            <span class="modal-form__icon-wrapper">
-              <svg class="modal-form__check-icon">
+          <input class="modal__checkbox visually-hidden" type="checkbox" id="modal-checkbox" />
+          <label class="modal__check-text" for="modal-checkbox">
+            <span class="modal__check-icon-wrapper">
+              <svg class="modal__check-icon">
                 <use href="./images/icons.svg#icon-checked"></use>
               </svg>
             </span>
             Соглашаюсь с рассылкой и принимаю&#160;
-            <a href="" class="link modal-form__link">Условия договора</a>
+            <a href="" class="modal__link link">Условия договора</a>
           </label>
 
-          <button type="submit" class="btn modal-form__btn">Отправить</button>
+          <button type="submit" class="modal__btn btn">Отправить</button>
         </form>
       </div>
     </div>
