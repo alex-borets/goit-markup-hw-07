@@ -43,7 +43,7 @@
 
 .header-contacts-list__link {
   font-weight: 500;
-  @include font(11px, 16px);
+  @include font(14px, 16px);
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);

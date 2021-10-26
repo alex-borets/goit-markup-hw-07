@@ -48,3 +48,19 @@
 .footer-list__link_color_white {
   color: var(--third-text-color);
 }
+
+.join-us,
+.subscribe__title {
+  margin-bottom: 20px;
+  @include font(14px, 16px);
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+
+.social-list__footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list__footer-icon {
+  fill: var(--third-text-color);
+}
